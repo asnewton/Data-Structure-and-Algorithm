@@ -1,3 +1,5 @@
+# Python program to rotate an array by d elements 
+
 def rotateArray(arr, start, end):
     while(start < end):
         arr[start], arr[end] = arr[end], arr[start]
