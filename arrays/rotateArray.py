@@ -5,7 +5,7 @@ def rotateArray(arr, d, n):
         temp = arr[0]
         for j in range(1,n):
             arr[j-1] = arr[j]
-        arr[j] = temp
+        arr[n-1] = temp
         
     
 if __name__=="__main__":
