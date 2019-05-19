@@ -8,7 +8,7 @@ def rotateArray(arr, start, end):
 
 
 if __name__ == "__main__":
-    arr = [1, 2, 3, 4, 5, 6 ,7]
+    arr = [1, 2, 3, 4, 5, 6 ,7, 8]
     n = len(arr)
     rotateArray(arr, 0, 1)
     rotateArray(arr, 2, n-1)

@@ -9,7 +9,7 @@ def rotateArray(arr, d, n):
         
     
 if __name__=="__main__":
-    arr = [1, 2, 3, 4, 5, 6, 7]
+    arr = [1, 2, 3, 4, 5, 6, 7, 8]
     n = len(arr)    
-    rotateArray(arr, 2, n)
+    rotateArray(arr, 3, n)
     print(arr)
