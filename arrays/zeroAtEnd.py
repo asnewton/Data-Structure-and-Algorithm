@@ -12,7 +12,7 @@ def zeroAtEnd(arr):
         count += 1
 
     if __name__ == "__main__":
-        arr = [1, 2, 3, 0, 4, 0, 5, 0, 7, 8]
+        arr = [1,  3, 0, 4, 0, 5, 0, 7, 8]
         zeroAtEnd(arr)
         print(arr)
     
